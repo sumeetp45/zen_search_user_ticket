@@ -3,7 +3,9 @@ Perl command line application to read user and ticket json files and then allow 
 
 
 ==================
+
 Readme
+
 ==================
 
 This readme has the following details :
@@ -39,6 +41,7 @@ e. The above output confirms the perl is ready on your server
 
 
 ==================
+
 2. Extract zip
 
 a. Create a test folder and extract the zip search_module.zip
@@ -65,6 +68,7 @@ e. This should print the usage of the application without any error. When done, 
     
     
 ==================
+
 3. How to execute the search application
 
 When you execute the search application with --help option, below usage is printed.
@@ -116,6 +120,7 @@ OPTIONS :
            --users_json="C:\Users\tmp\test\test_users.json"
      
 ==================
+
 4. Enable UTF-8 in windows command prompt
 
 a. The json files contain certain text in UTF-8 format. 
@@ -126,6 +131,7 @@ c. Search for options to enable UTF-8 and enable it.
 
 
 ==================
+
 5. Log file details
 
 a. During the execution of the search application, a log file search_user_ticket.log gets
@@ -135,6 +141,7 @@ b. This log file is for debugging purpose.
 
 
 ==================
+
 6. Support for Other operating system
 
 a. The application should run on other operating systems as long as 
@@ -153,6 +160,7 @@ b. The only clear screen command that is used in the code is specific
     
     
 ==================
+
 7. Performance
 
 a. The specific search based on ID should be the fastest and the response
@@ -166,6 +174,7 @@ c. The logging is minimal, but on extensive search, can cause increase
     
     
 ==================
+
 8. Improvements
 
 a. The test_modules.pm can be improved. Due to lack of time could not improve it much
