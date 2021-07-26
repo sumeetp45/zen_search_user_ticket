@@ -161,7 +161,7 @@ sub process_search_data
     _logmsg("process_search_data: Start");
     
     while (1) {
-        #TODO system("cls") if ($^O eq "MSWin32");
+        system("cls") if ($^O eq "MSWin32");
     
         print "\n\n======  Search users or tickets  ======\n";
         print "\n Search Options:\n";
@@ -211,7 +211,7 @@ sub specific_search
     _logmsg("specific_search: Start");
     
     while (1) {
-        #TODO system("cls") if ($^O eq "MSWin32");
+        system("cls") if ($^O eq "MSWin32");
         print "\nSpecific Search : Following options available :- \n";
         print "  1. Search based on User ID\n";
         print "  2. Search based on any User name\n";
