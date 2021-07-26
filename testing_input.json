@@ -1,0 +1,182 @@
+[
+  {
+    "test_num": 1,
+    "mod": "generic_search",
+    "search_text": "debra",
+    "return_users" : [
+        "Debra William"
+    ]
+  },
+  {
+    "test_num": 2,
+    "mod": "generic_search",
+    "search_text": "france",
+    "return_tickets" : [
+        "fa3a37e3-942e-4048-81bc-d0d7e79cb686",
+        "c527e065-ec62-40ed-aa72-136f5ab0eb89"
+    ]
+  },
+  {
+    "test_num": 3,
+    "mod": "specific_user_id_search",
+    "search_id": 10,
+    "return_users" : [
+        "Kari Vinson"
+    ]
+  },
+  {
+    "test_num": 4,
+    "mod": "generic_search",
+    "search_text": "fran",
+    "return_users" : [
+        "Francisca Rasmussen",
+        "Francis Rodrigüez",
+        "Francis Bailey"
+    ]
+  },
+  {
+    "test_num": 5,
+    "mod": "generic_search",
+    "search_text": "joh",
+    "return_users" : [
+        "John Floyd"
+    ]
+  },
+  {
+    "test_num": 6,
+    "mod": "generic_search",
+    "search_text": "shel",
+    "return_users" : [
+        "Shelly Clements"
+    ]
+  },  
+  {
+    "test_num": 7,
+    "mod": "generic_search",
+    "search_text": "lgaria",
+    "return_tickets" : [
+        "0533df4e-488f-45dd-b4b8-e238be0690ed"
+    ]
+  },
+  {
+    "test_num": 8,
+    "mod": "specific_user_id_search",
+    "search_id": 55,
+    "return_users" : [
+        "Thelma Wong"
+    ]
+  },
+  {
+    "test_num": 9,
+    "mod": "specific_user_id_search",
+    "search_id": 67,
+    "return_users" : [
+        "Benjamin Stephenson"
+    ]
+  },
+  {
+    "test_num": 10,
+    "mod": "specific_user_id_search",
+    "search_id": 77,
+    "return_users" : [
+        ""
+    ]
+  },
+  {
+    "test_num": 11,
+    "mod": "specific_user_id_search",
+    "search_id": 45,
+    "return_users" : [
+        "Harper Sandoval"
+    ]
+  },
+  {
+    "test_num": 12,
+    "mod": "specific_user_name_search",
+    "search_text": "jos",
+    "return_users" : [
+        "Josefa Mcfadden",
+        "Shepherd Joseph"
+    ]
+  },
+  {
+    "test_num": 13,
+    "mod": "specific_user_name_search",
+    "search_text": "Woodard Burt",
+    "return_users" : [
+        "Woodard Burt"
+    ]
+  },
+  {
+    "test_num": 14,
+    "mod": "specific_user_name_search",
+    "search_text": "lee",
+    "return_users" : [
+        "Lee Davidson",
+        "Lee Dotson"
+    ]
+  },
+  {
+    "test_num": 15,
+    "mod": "specific_user_name_search",
+    "search_text": "arm",
+    "return_users" : [
+        "Haley Farmer",
+        "Gallegos Armstrong"
+    ]
+  },
+    {
+    "test_num": 16,
+    "mod": "specific_ticket_sub_search",
+    "search_text": "poland",
+    "return_tickets" : [
+        "31e7f6d7-f6cb-4781-b4e7-2f552941e1f5"
+    ]
+  },
+  {
+    "test_num": 17,
+    "mod": "specific_ticket_sub_search",
+    "search_text": "union",
+    "return_tickets" : [
+        "0f0868ba-518c-4e1b-b286-41e0937c4e7c"
+    ]
+  },
+  {
+    "test_num": 18,
+    "mod": "specific_ticket_sub_search",
+    "search_text": "island",
+    "return_tickets" : [
+        "5aa53572-b31c-4d27-814b-11709ab00259",
+        "e68d8bfd-9826-42fd-9692-add445aa7430",
+        "be0f613a-e7f7-4833-9342-643b0d9b9fca",
+        "bb6b2b5b-d58e-4c05-99a8-0d7cf2792acb",
+        "1bdad283-b751-407d-a6d5-8067016b8010",
+        "62a4326f-7114-499f-9adc-a14e99a7ffb4",
+        "b776f78f-e3ac-4139-9a8f-6f905472f44d",
+        "bbcb11e8-efa1-48e7-b06a-da9cf54afe69",
+        "e33110bb-fd7b-4983-987a-4172a9e24919",
+        "3d5ec1b4-509c-45de-8338-4934531d48f3",
+        "9216c7b3-9a7b-40cb-8f96-56fca79520eb",
+        "dcb9143e-cb17-49ea-a9be-abf6989bd2d4",
+        "92c88581-f778-42bc-a828-0000afaa9588",
+        "6c0406da-481e-414a-9dc5-8d7aec832e67",
+        "89255552-e9a2-433b-970a-af194b3a39dd"
+    ]
+  },
+  {
+    "test_num": 19,
+    "mod": "specific_ticket_id_search",
+    "search_text": "5aa53572",
+    "return_tickets" : [
+        "5aa53572-b31c-4d27-814b-11709ab00259"
+    ]
+  },
+  {
+    "test_num": 20,
+    "mod": "specific_ticket_id_search",
+    "search_text": "e33110bb",
+    "return_tickets" : [
+        "e33110bb-fd7b-4983-987a-4172a9e24919"
+    ]
+  }  
+]
