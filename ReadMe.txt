@@ -14,6 +14,7 @@ This readme has the following details :
 6. Support for Other operating system
 7. Performance
 8. Improvements
+9. Test Coverage
 
 
 ==================
@@ -174,6 +175,17 @@ c. The application prints the UTF-8 characters correctly, but while accepting in
     some issue. Needs more debugging.
     
 d. Not have had time to add more comments.    
+
+==================
+9. Test Coverage
+
+a. Testing is dependent on the json input files test_tickets.json, test_users.json and testing_input.json
+
+b. testing_input.json and test_modules.pm have to be in the same directory as the other perl scripts.
+    Execution has to be done from the same folder.
+    
+c. Do not change test_tickets.json and test_users.json file. As the testing_input runs all test cases based on
+    these two files.
 
 ==================
 END    
